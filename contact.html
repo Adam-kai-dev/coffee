@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon2.png' />
+
+    <!-- Googoe Fonts (Lora font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Coffee</title>
+
+</head>
+<body>
+    
+    <!----------------- Start Navbar ------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
+       <a class="img-brand" href="index.html"><img src="images/mycoffee.png" alt=""></a>
+       <a class="navbar-brand" href="index.html">My Coffee</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="about.html" target="_blank">About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Shop
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <li><a class="dropdown-item" href="shop.html">Products</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="myacount.html">My Account</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+             </ul>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="signin.html" target="_blank">Sign In</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="signup.html" target="_blank">Sign Up</a>
+           </li>
+         </ul>
+         <form class="d-flex">
+           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+           <div class="btn-group" role="group" aria-label="Basic example">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+             <button type="button" class="btn btn-primary btn-outline-success"><a href="search.html" class="nav-search-icon"><i class="fas fa-cog"></i></a></button>
+           </div>
+
+         </form>
+       </div>
+     </div>
+   </nav>
+ <!-- --------------- End Navbar -------------------->
+
+
+    <!-- --------------- Start contact -------------------->
+    <section class="contact">
+         <div class="container">
+              <div class="row">
+               <div class="col-md-6 get-in-touch">
+                    <h2>Get in touch</h2>
+                    <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+               </div>
+              </div>
+         </div>
+    </section>
+
+    <section class="contact-info">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-6 text-center">
+                    <div class="cont-card">
+                         <i class="fas fa-phone-alt card-icon"></i>
+                         <h4>Talk to Sales</h4>
+                         <p>Interested in My Coffee Company? Just pick up the phone to chat with a 
+                         member of our sales team.</p>
+                         <p>+1 123 123 123</p>
+                    </div>
+               </div>
+               <div class="col-md-6 text-center">
+                    <div class="cont-card">
+                         <i class="fas fa-comments card-icon"></i>
+                         <h4>Contact Customer Support</h4>
+                         <p>Sometimes you need a little help from your friends. Or a My Coffee support rep. 
+                         Don’t worry… we’re here for you.</p>
+                         <p>Use The Form Below</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+    </section>
+
+    <section class="contact-form">
+         <div class="container global-info">
+              <div class="row">
+                   
+                    <div class="col-md-4 contact-card-info">
+                         <ul class="box-info">
+                              <h2>Contact Info</h2>
+                              <li><i class="fas fa-phone-alt box-icon"></i>+1 456 456 456</li>
+                              <li><i class="fas fa-map-marker-alt box-icon"></i>44 something ST</li>
+                              <li><i class="fas fa-envelope box-icon"></i>youremail@gmail.com</li>
+                         </ul>
+                    </div>
+                         
+                    <div class="col-md-8 card-form">
+                         <div class="container">
+                              <div class="row">
+                                   <div class="col-md-6 box-input">
+                                        <label for="name">Name</label>
+                                        <br>
+                                        <input type="text" name="name" id="name" required>
+                                   </div>
+                                   <div class="col-md-6 box-input">
+                                        <label for="company">company</label>
+                                        <br>
+                                        <input type="text" name="company" id="company">
+                                   </div>
+                                   <div class="col-md-6 box-input">
+                                        <label for="email">Email</label>
+                                        <br>
+                                        <input type="email" name="name" id="email" required>
+                                   </div>
+                                   <div class="col-md-6 box-input">
+                                        <label for="telephone">Phone</label>
+                                        <br>
+                                        <input type="tel" name="telephone" id="telephone" required>
+                                   </div>
+                              </div>
+                              <div class="row">
+                                   <div class="col-md-12">
+                                        <!-- Message -->
+                                        <div class="message">
+                                             <label for="message">Message</label>
+                                             <br>
+                                             <textarea id="message" ></textarea>
+                                        </div>
+                                        <!-- Submit -->
+                                        <div class="text-center">
+                                             <button class="btn btn-primary cont-submit">SUBMIT</button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+              </div>
+         </div>
+    </section>
+    <!-- --------------- End contact -------------------->
+
+
+
+    <!-- --------------- End Footer -------------------->
+    <footer class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 foot-card">
+                    <a class="footer-logo" href="#"><img src="images/mycoffee.png" alt=""></a>
+                    <a class="navbar-brand" href="#">My Coffee</a>
+                    <p class="foot-dec">Order your favorite coffee, and get it wherever you are.</p>
+                </div>
+                <div class="col-md-3 foot-card">
+                    <h5>LINKS</h5>
+                    <ul class="list-unstyled item-hov">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 foot-card item-hov">
+                    <h5>DELIVERY SERVICE</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="">111-111-111</a></li>
+                        <li><a href="">222-222-222</a></li>
+                        <li><a href="">333-333-333</a></li>
+                        <li><a href="">444-444-444</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 foot-card">
+                    <h5>JOIN US</h5>
+                    <ul class="list-unstyled social-media">
+                        <li><a href="https://www.youtube.com"><i class="fab fa-youtube socil-icon"></i> Youtube</a></li>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square socil-icon"></i> facebook</a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter-square socil-icon"></i> twitter</a></li>
+                        <li><a href="https://www.pintrest.com"><i class="fab fa-pinterest socil-icon"></i> pintrest</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+            <div class="copyright">
+                <p class="text-center">Copyright © 2021 My Coffee. Powered By themeoasis</p>
+            </div>
+    </footer>
+    <!-- --------------- End Footer -------------------->
+
+    <!------------------- Start Scripts ------------------>
+    <!-- FontAwesome js -->
+    <script src="js/all.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main js -->
+    <script src="js/scripts.js"></script>
+    <!------------------- End Scripts ------------------>
+
+</body>
+</html>
